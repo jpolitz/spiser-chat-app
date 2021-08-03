@@ -1,0 +1,22 @@
+{
+  "name": "spiser-chat-app",
+  "version": "1.0.0",
+  "description": "The best chat app",
+  "main": "spiser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpolitz/spiser-chat-app.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "The Whole SPIS Gang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpolitz/spiser-chat-app/issues"
+  },
+  "homepage": "https://github.com/jpolitz/spiser-chat-app#readme"
+}
