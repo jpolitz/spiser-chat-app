@@ -15,8 +15,8 @@ app.get('/', (request, response) => {
     response.send(chatString);
 });
 
-app.get('/chat/', (request, response) => {
-    thisChat = request.params["message"];
+app.get('/chat/:message', (request, response) => {
+    thisChat = request.params.message;
     console.log("Someone loaded /chat with ", request.params);
     chats.push(thisChat);
     response.send("Thank you for your chat");
