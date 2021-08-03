@@ -15,6 +15,13 @@ app.get('/', (request, response) => {
     response.send(chatString);
 });
 
+app.get('/chat/', (request, response) => {
+    thisChat = request.params["message"];
+    console.log("Someone loaded /chat with ", request.params);
+    chats.push(thisChat);
+    response.send("Thank you for your chat");
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
